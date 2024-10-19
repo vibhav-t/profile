@@ -3,114 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Developer Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
-            margin: 0;
-        }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        .content {
-            padding: 20px;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1>Software Developer Portfolio</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
     <div class="container">
-        <section class="content">
-            <h2>Professional Summary</h2>
-            <p>Dedicated and highly skilled software developer with 7 years of experience in designing, developing, and maintaining software applications...</p>
+        <header>
+            <h1>[Your Name]</h1>
+            <p>Full Stack Developer</p>
+            <p>[Your Location] | [Your Email] | [Your Phone Number]</p>
+        </header>
 
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Passionate and experienced Full Stack Developer with 7 years in .NET technologies. Skilled in creating dynamic, user-friendly applications, and eager to contribute to innovative projects.</p>
+        </section>
+
+        <section class="skills">
             <h2>Technical Skills</h2>
             <ul>
-                <li>Languages: Java, Python, JavaScript, C#</li>
-                <li>Frameworks: Spring, Django, Angular, React</li>
-                <li>Databases: MySQL, PostgreSQL, MongoDB</li>
-                <li>Tools & Technologies: Docker, Kubernetes, Jenkins, Git</li>
-                <li>Cloud Services: AWS, Azure</li>
+                <li>C#, .NET Core, ASP.NET MVC</li>
+                <li>HTML5, CSS3, JavaScript, Angular, React</li>
+                <li>SQL Server, Git, Docker, Azure</li>
             </ul>
-
-            <h2>Professional Experience</h2>
-            <p><strong>Senior Software Developer</strong> - Company Name, Location (Dates of Employment)</p>
-            <p>Achievements and responsibilities...</p>
-
-            <p><strong>Software Developer</strong> - Company Name, Location (Dates of Employment)</p>
-            <p>Achievements and responsibilities...</p>
-
-            <h2>Education</h2>
-            <p><strong>Bachelor of Science in Computer Science</strong> - University Name, Location (Year of Graduation)</p>
-
-            <h2>Certifications</h2>
-            <p>AWS Certified Solutions Architect, Microsoft Certified: Azure Developer Associate...</p>
-
-            <h2>Projects</h2>
-            <p><strong>Project Name</strong>: Description of the project and technologies used...</p>
-
-            <h2>References</h2>
-            <p>Available upon request.</p>
         </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Full Stack Developer</h3>
+                <p>[Current Employer] - [City, State] <span>[Month, Year] – Present</span></p>
+                <ul>
+                    <li>Developed scalable web applications using .NET Core and Angular.</li>
+                    <li>Collaborated with design teams to enhance user experience.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>.NET Developer</h3>
+                <p>[Previous Employer] - [City, State] <span>[Month, Year] – [Month, Year]</span></p>
+                <ul>
+                    <li>Built enterprise-level applications with ASP.NET MVC.</li>
+                    <li>Optimized performance, improving load times by 25%.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>[Project Name]</h3>
+                <p>Description of the project, technologies used, and your contributions.</p>
+            </div>
+            <div class="project">
+                <h3>[Project Name]</h3>
+                <p>Description of the project, technologies used, and your contributions.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; [Year] [Your Name]. All Rights Reserved.</p>
+        </footer>
     </div>
-    <footer>
-        <p>Software Developer Portfolio &copy; 2024</p>
-    </footer>
 </body>
 </html>
