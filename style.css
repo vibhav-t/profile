@@ -1,17 +1,18 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Calibri', 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
   margin: 0;
   padding: 2rem;
-  color: #333;
+  color: #222;
 }
 
 .resume {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   background: #fff;
-  padding: 2rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 2.5rem;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+  border-radius: 8px;
 }
 
 header {
@@ -20,28 +21,52 @@ header {
 }
 
 header h1 {
-  margin: 0;
-  font-size: 2rem;
-  color: #2c3e50;
-}
-
-section {
-  margin-bottom: 1.5rem;
-}
-
-section h2 {
-  font-size: 1.25rem;
-  color: #34495e;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 0.25rem;
+  font-size: 2.2rem;
+  font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
+header p {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+}
+
+section {
+  margin-bottom: 1.8rem;
+}
+
+section h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #005a9c;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
 ul {
-  padding-left: 1.2rem;
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
 }
 
 .job h3 {
+  font-size: 1rem;
+  font-weight: 600;
   margin: 0.5rem 0;
-  color: #2980b9;
+  color: #333;
+}
+
+.job ul {
+  margin-top: 0.3rem;
+}
+
+a {
+  color: #005a9c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
